@@ -1,0 +1,70 @@
+body
+{
+    font-family: 'Gowun Batang', serif;
+    padding:2rem 9%;
+    
+}
+h1,h2{
+    text-align:center;
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+h2{
+    text-decoration: none;
+    
+}
+h3
+{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.profile-container
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: crimson;
+   color: white;
+   font-size: 1.5rem;
+   box-shadow: 0 .3rem .5rem rgba(0,0,0,0.5);
+   border-radius: 10px;
+
+}
+
+ input[type='submit']
+{
+    font-size: 1.55rem;
+    margin-top: 1rem;
+    background-color: green;
+    color: white;
+    font-weight: 800;
+    font-family: 'Gowun Batang', serif;
+    border: none;
+    cursor: pointer;
+}
+.btn
+{
+    font-size: 1.5rem;
+    margin-top: 1rem; 
+    border: none;
+    background-color: green;
+    color: white;
+    font-family: 'Gowun Batang', serif;
+    font-weight: 800;
+    cursor: pointer;
+}
+.logout
+{
+    font-size:2rem;
+    text-decoration: none;
+}
+td,th
+{
+    padding:0.5rem 1rem 0.5rem 1rem;
+}
+form input[type="submit"]:hover
+{
+    background-color: springgreen;
+    color: black;
+}
